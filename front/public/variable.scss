@@ -1,0 +1,16 @@
+$color-primary: #fd2d01;
+$color-secondary: #FFD7D7;
+$color-tertiary: #4E5166;
+
+@mixin mobile{
+  @media (max-width: 620px) { 
+    @content; 
+  }
+}
+ 
+@mixin tablet {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
